@@ -53,12 +53,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build2.loader.js";
+      var loaderUrl = buildUrl + "/Build3.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Build2.data.unityweb",
-        frameworkUrl: buildUrl + "/Build2.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build2.wasm.unityweb",
+        dataUrl: buildUrl + "/Build3.data.unityweb",
+        frameworkUrl: buildUrl + "/Build3.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build3.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "DogVision",
@@ -91,7 +91,6 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
         document.querySelector("#unity-container").className = "unity-mobile";
         canvas.className = "unity-mobile";
-        
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
